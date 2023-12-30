@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - hlvst
-  pull_request:
+  # pull_request:
 jobs:
   test-bot:
     strategy:
