@@ -2,8 +2,8 @@ name: brew test-bot
 on:
   push:
     branches:
-      - hlvst
-  # pull_request:
+      - main
+  pull_request:
 jobs:
   test-bot:
     strategy:
